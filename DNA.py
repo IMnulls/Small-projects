@@ -1,3 +1,4 @@
+#small function that counts the number of each nucleotide in a DNA strand
 def analyzedna(dna):
     a, c, g, t = 0, 0, 0, 0
     for i in range(len(dna)):
@@ -13,3 +14,4 @@ def analyzedna(dna):
             dna=str(input("Input incorrect. Please make sure the input contains only A, T, G and C."))
             analyzedna(dna)
     print (f"A:{a} C:{c} G:{g} T:{t}")
+
